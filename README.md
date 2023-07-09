@@ -1,8 +1,18 @@
+# Resume Builder API frontend
+
+This challenge aims to create a Resume Builder API that uses the Adobe Document Generation API to dynamically create PDF resumes from DOCX based templates.This repository is the backend part.  
+
+
 ### How to run
 ```shell
  npm install
  node server.js
 ```
+1. After running the above command, the server is up and ready to receive requests and send reponses.To visualize it as a client head back to the frontend part of the website which is in
+```shell
+ https://github.com/madhusriram012/resumeapifrontend
+```
+ and follow the commands over there.
 
 ### How to run test
 ```shell
@@ -10,7 +20,8 @@ npm test (or)
 jest (or)
 npm run test
 ```
-
+# For the following process you can use [postman](https://www.postman.com/) 
+  1.
 ### Endpoint
 The endpoint should be authenticated with username and password.
 To generate the resume, please follow the below steps,
@@ -67,6 +78,8 @@ possible Template Ids
 ### Improvements
 * Adding rate-limit to the API calls
 * Adding deeper santization for all the json fields (e.g name field does not contain any illegal characters, max length etc.,)
+* This challenge does not consider security validation. The security validation like XSS including Markdown bypass
+ SQL injections,NoSQL injections can be improved
 
 ### cURL command
 1. ```shell
