@@ -60,9 +60,9 @@ Body
 ```
 
 possible Template Ids
-* template1
-* template2
-* template3
+* 1
+* 2
+* 3
 
 ### Improvements
 * Adding rate-limit to the API calls
