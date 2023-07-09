@@ -12,7 +12,7 @@ This challenge aims to create a Resume Builder API that uses the Adobe Document 
 ```shell
  https://github.com/madhusriram012/resumeapifrontend
 ```
- and follow the commands over there.
+ copy the above url and paste in browser and follow the steps in readme over there.
 
 ### How to run test
 ```shell
@@ -74,11 +74,11 @@ Body
     }]
 }
 ```
-
 possible Template Ids
 * 1
 * 2
 * 3
+
 
 ### Improvements
 * Adding rate-limit to the API calls
@@ -107,7 +107,7 @@ possible Template Ids
    "phoneNumber": "+441238726384",
    "linkedInUrl": "http://test.com"
    },
-   "templateId": "LinkTemplate",
+   "templateId": "1",
    "jobTitle": "Software Engineer",
    "careerObjective": "leader",
    "skills": ["Java"],
