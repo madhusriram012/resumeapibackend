@@ -22,7 +22,9 @@ npm run test
 ```
 # For the following process you can use [postman](https://www.postman.com/) 
   1.Create a new workspace or use your existing workspace in postman.
+  
   2.The workspace will look like below 
+  
   <img width="1435" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/88bc8a01-5425-44d1-9baf-81ffdea7f195">
 
 ### Endpoint
