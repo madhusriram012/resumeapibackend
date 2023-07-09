@@ -94,8 +94,11 @@ possible Template Ids
 ### Possible errors
 
 400 - Bad Request 
+
 404 - Template not found
+
 401 - Unauthorized
+
 500 - Internal Server error
 
 
