@@ -1,4 +1,4 @@
-# Resume Builder API frontend
+# Resume Builder API backend
 
 This challenge aims to create a Resume Builder API that uses the Adobe Document Generation API to dynamically create PDF resumes from DOCX based templates.This repository is the backend part.  
 
