@@ -33,6 +33,7 @@ To generate the resume, please follow the below steps,
 1) Login with below endpoint
 
 POST http://localhost:8081/login
+
 Body
 ```json
 {
@@ -40,8 +41,11 @@ Body
     "password": "admin"
 }
 ```
+
 2) Copy the accessToken from the response
-3) Add the token as type `Bearer Token` for the below endpoint
+3) 
+4) Add the token as type `Bearer Token` for the below endpoint
+   
 POST `http://localhost:8081/resume/`
 
 Body
