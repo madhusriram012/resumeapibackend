@@ -14,7 +14,7 @@ describe('Resume Service', () => {
 
     it('should give outputPath if download is success', async function () {
         const copyData = JSON.parse(JSON.stringify(validData))
-        copyData.templateId = "LinkTemplate"
+        copyData.templateId = "1"
 
         expect(await service.createResume(copyData)).toContain("output/resume-test")
     });

@@ -4,6 +4,7 @@ const CustomError = require('../routes/custom.error');
 const fs = require('fs');
 const createResume = async (jsonDataForMerge) => {
     const templatePath = 'resources/' + jsonDataForMerge.templateId + ".docx"
+    
     if (!fs.existsSync(templatePath)) {
         throw new CustomError('template not found', 404)
     }
