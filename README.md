@@ -15,6 +15,13 @@ A Resume Builder API is a tool that allows users to create professional resumes 
  copy the above url and paste in browser and follow the steps in readme over there.
 
 ### How to run test
+1.Delete the existing node modules folder and reinstall using 
+
+```shell
+ npm install
+```
+2.After reinstalling node modules, now run the command 
+
 ```shell
 npm test (or)
 jest (or)
