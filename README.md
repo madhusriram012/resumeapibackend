@@ -83,6 +83,9 @@ possible Template Ids
 * 2
 * 3
 
+# Output
+  The response from the API is stored as PDF under the output folder.
+
 
 ### Improvements
 
