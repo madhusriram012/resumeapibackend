@@ -55,8 +55,8 @@ const checkTokenMiddleware = (req, res, next) => {
 
 app.use('/', indexRouter);
 app.use('/login', loginRouter);
-app.use('/resume',resumeRouter);
-// checkTokenMiddleware, 
+app.use('/resume',checkTokenMiddleware,resumeRouter);
+
 app.use(errorResponder)
 app.use(invalidPathHandler)
 
