@@ -82,10 +82,13 @@ possible Template Ids
 * 1
 * 2
 * 3
+<<<<<<< HEAD
 
 # Output
   The response from the API is stored as PDF under the output folder.
 
+=======
+>>>>>>> 71bade8 (format of docx update)
 
 ### Improvements
 
