@@ -9,8 +9,12 @@ A Resume Builder API is a tool that allows users to create professional resumes 
  node server.js
 ```
 
+<<<<<<< HEAD
 1. After running the above command, the server is up and ready to receive requests and send reponses.To visualize it as a client head back to the frontend part of the website which is in
 
+=======
+1. After running the above command, the server is up and ready to receive requests and send reponses.To visualize it as a client, head back to the front-end part of the website which is in
+>>>>>>> 350780f1ac7ec50d80623c98eecbc67a366ebe92
 ```shell
  https://github.com/madhusriram012/resumeapifrontend
 ```
@@ -19,20 +23,37 @@ copy the above url and paste in browser and follow the steps in readme over ther
 
 ### How to run test
 
+<<<<<<< HEAD
 run the command
 
+=======
+>>>>>>> 350780f1ac7ec50d80623c98eecbc67a366ebe92
 ```shell
 npm test (or)
 jest (or)
 npm run test
 ```
 
+<<<<<<< HEAD
 # For the following process you can use [postman](https://www.postman.com/)
 
 1.Create a new workspace or use your existing workspace in postman.
 
 2.The workspace will look like below
 
+=======
+### How to fix code styling
+
+```shell
+npm run prettier-fix
+```
+
+# To see the backend api function implementation without frontend, you can use [postman](https://www.postman.com/) 
+  1.Create a new workspace or use your existing workspace in postman.
+  
+  2.The workspace will look like below 
+  
+>>>>>>> 350780f1ac7ec50d80623c98eecbc67a366ebe92
   <img width="1435" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/88bc8a01-5425-44d1-9baf-81ffdea7f195">
 
 ### Endpoint
@@ -53,10 +74,20 @@ Body(in json format)
 }
 ```
 
+<<<<<<< HEAD
 2. Copy the accessToken from the response
 
 3. Add the token as type `Bearer Token` for the below endpoint
 
+=======
+2) Copy the accessToken from the response
+  
+3) Add the token as type `Bearer Token` for the below endpoint in the area shown in the picture.The end point and the body is available below the picture.
+
+<img width="1017" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/f4493f25-8a03-4807-982c-f562954ae15c">
+
+   
+>>>>>>> 350780f1ac7ec50d80623c98eecbc67a366ebe92
 POST `http://localhost:8081/resume/`
 
 Body
