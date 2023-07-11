@@ -19,7 +19,7 @@ If error persists while running the above command ,simply delete the node_module
 
 ### Step 3: To start development server
 ```bash
-  node server.js
+  npm start
 ```
 
 1. After running the above command, the server is up and ready to receive requests and send reponses.To visualize it as a client head back to the frontend part of the website which is in
