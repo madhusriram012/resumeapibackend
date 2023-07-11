@@ -22,7 +22,7 @@ npm test (or)
 jest (or)
 npm run test
 ```
-# For the following process you can use [postman](https://www.postman.com/) 
+# To see the backend api function implementation without frontend, you can use [postman](https://www.postman.com/) 
   1.Create a new workspace or use your existing workspace in postman.
   
   2.The workspace will look like below 
