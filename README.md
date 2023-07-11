@@ -17,12 +17,18 @@ A Resume Builder API is a tool that allows users to create professional resumes 
 
 ### How to run test
 
- run the command 
 ```shell
 npm test (or)
 jest (or)
 npm run test
 ```
+
+## How to fix code styling
+
+```shell
+npm run prettier-fix
+```
+
 # To see the backend api function implementation without frontend, you can use [postman](https://www.postman.com/) 
   1.Create a new workspace or use your existing workspace in postman.
   
