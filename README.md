@@ -10,7 +10,7 @@ git clone https://github.com/madhusriram012/resumeapibackend.git
 ```
 
 ### Step 2: Install dependencies
-
+To add node_modules, type npm install in terminal.
 ```bash
 cd resumeapibackend
 npm install 
