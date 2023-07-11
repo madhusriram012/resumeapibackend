@@ -46,7 +46,7 @@ Body(in json format)
 
 2) Copy the accessToken from the response
   
-3) Add the token as type `Bearer Token` for the below endpoint in the area shown in the picture
+3) Add the token as type `Bearer Token` for the below endpoint in the area shown in the picture.The end point and the body is available below the picture.
 
 <img width="1017" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/f4493f25-8a03-4807-982c-f562954ae15c">
 
