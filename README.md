@@ -17,7 +17,7 @@ npm install
 ```
 If error persists while running the above command ,simply delete the node_modules folder and repeat the process.
 
-### Step 3: To start development server
+### Step 3: To start server
 ```bash
   npm start
 ```
