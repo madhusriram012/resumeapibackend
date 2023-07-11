@@ -8,24 +8,24 @@ const personalInformationSchema = Joi.object({
     lastName: Joi.string().required(),
     emailAddress: Joi.string().email().required(),
     phoneNumber: Joi.string().regex(PHONE_NUMBER_PATTERN).required(),
-    linkedInUrl: Joi.string().required() // alternative - Joi.string().url().required()
-});
+    linkedInUrl: Joi.string().required(), // alternative - Joi.string().url().required()
+})
 
 const educationSchema = Joi.object({
     schoolName: Joi.string().required(),
     passingYear: Joi.string().required(),
-    description: Joi.string().required()
+    description: Joi.string().required(),
 })
 
 const experienceSchema = Joi.object({
     companyName: Joi.string().required(),
     passingYear: Joi.string().required(),
-    responsibilities: Joi.string().required()
+    responsibilities: Joi.string().required(),
 })
 
 const achievementsSchema = Joi.object({
     field: Joi.string().required(),
-    awards: Joi.string().required()
+    awards: Joi.string().required(),
 })
 
 const resumeSchema = Joi.object({
@@ -39,4 +39,4 @@ const resumeSchema = Joi.object({
     achievements: Joi.array().items(achievementsSchema.required().min(1)).required(),
 })
 
-module.exports = resumeSchema;
+module.exports = resumeSchema

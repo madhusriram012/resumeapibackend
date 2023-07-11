@@ -1,9 +1,9 @@
 {
-  "adobeClientConfig" : {
-    "client_id": "f9fe3505f9114252acf0743a17810549",
-    "client_secret": "p8e-NlPqngvB15b1aC4TLFDkuDaaCD4bV1HS"
-  },
-  "jwt": {
-    "secret": "my-secret"
-  }
+    "adobeClientConfig": {
+        "client_id": "f9fe3505f9114252acf0743a17810549",
+        "client_secret": "p8e-NlPqngvB15b1aC4TLFDkuDaaCD4bV1HS"
+    },
+    "jwt": {
+        "secret": "my-secret"
+    }
 }
