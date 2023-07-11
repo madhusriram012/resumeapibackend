@@ -8,6 +8,7 @@ A Resume Builder API is a tool that allows users to create professional resumes 
  npm install
  node server.js
 ```
+If some error occurs delete the existing node_modules folder and re-install using above command.
 1. After running the above command, the server is up and ready to receive requests and send reponses.To visualize it as a client head back to the frontend part of the website which is in
 ```shell
  https://github.com/madhusriram012/resumeapifrontend
