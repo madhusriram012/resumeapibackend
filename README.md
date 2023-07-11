@@ -23,7 +23,7 @@ jest (or)
 npm run test
 ```
 
-## How to fix code styling
+### How to fix code styling
 
 ```shell
 npm run prettier-fix
