@@ -9,7 +9,7 @@ A Resume Builder API is a tool that allows users to create professional resumes 
  node server.js
 ```
 
-1. After running the above command, the server is up and ready to receive requests and send reponses.To visualize it as a client head back to the frontend part of the website which is in
+1. After running the above command, the server is up and ready to receive requests and send reponses.To visualize it as a client, head back to the front-end part of the website which is in
 ```shell
  https://github.com/madhusriram012/resumeapifrontend
 ```
