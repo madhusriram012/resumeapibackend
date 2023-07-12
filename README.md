@@ -28,7 +28,7 @@ If error persists while running the above command ,simply delete the node_module
  https://github.com/madhusriram012/resumeapifrontend
 ```
 
-copy the above url and paste in browser and follow the steps in readme over there.
+copy the above url and paste in browser and follow the steps in readme over there(from how to run in frontend as we have successfully started the server).
 
 # How to run test
 
