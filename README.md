@@ -138,7 +138,10 @@ Possible Template Ids
 
 # Output
 
-The response from the API is stored as PDF under the output folder.
+The response from the API is stored as PDF under the output folder, like the image shown below.
+
+![image](https://github.com/madhusriram012/resumeapibackend/assets/75003175/ffd73e35-58da-4f3c-9568-373107c28b11)
+
 
 # Improvements
 
