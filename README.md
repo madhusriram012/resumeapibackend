@@ -54,7 +54,7 @@ npm run prettier-fix
    3. `error` contains custom error for defined.
    4. `service` contains business logic.
    5. `validators` contains validations.
-4. `tests` folder contains unit tests of all the code.
+4. `tests` folder contains unit tests of all the codes.
 
 # To see the backend api function implementation without frontend, you can use [postman](https://www.postman.com/) 
   1.Start the server first by typing `npm start`, then head over to postman.
