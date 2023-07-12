@@ -140,14 +140,14 @@ Possible Template Ids
 
 The response from the API is stored as PDF under the output folder.
 
-### Improvements
+# Improvements
 
 -   Adding rate-limit to the API calls
 -   Adding deeper santization for all the json fields (e.g name field does not contain any illegal characters, max length etc.,)
 -   This challenge does not consider security validation. The security validation like XSS including Markdown bypass
     SQL injections,NoSQL injections can be improved
 
-### Possible errors
+# Possible errors
 
 400 - Bad Request
 
