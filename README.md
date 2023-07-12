@@ -118,7 +118,7 @@ To generate the resume, please follow the below steps,
 }
 ```
 
-possible Template Ids
+Possible Template Ids
 
 -   1
 -   2
