@@ -45,11 +45,12 @@ npm run prettier-fix
 ```
 
 # To see the backend api function implementation without frontend, you can use [postman](https://www.postman.com/) 
-  1.Create a new workspace or use your existing workspace in postman.
+  1.Create a new workspace or use your existing workspace in postman
   
   2.The workspace will look like below 
   
-  <img width="1435" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/88bc8a01-5425-44d1-9baf-81ffdea7f195">
+<img width="1438" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/ee45f4fd-4b1b-41c6-a4b6-9d93034cb5d0">
+(use Desktop Agent as show in image)
 
 ### Endpoint
 
@@ -71,9 +72,10 @@ Body(in json format)
 
 2) Copy the accessToken from the response
   
-3) Add the token as type `Bearer Token` for the below endpoint in the area shown in the picture.The end point and the body is available below the picture.
+3) Add the token as type `Bearer Token` for the below endpoint in the area shown in the picture.The end point and the body(in json format) is available below the picture
 
-<img width="1017" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/f4493f25-8a03-4807-982c-f562954ae15c">
+<img width="1016" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/d55a5051-0047-49f2-8d78-0812a1aa14ae">
+
 
 POST `http://localhost:8081/resume/`
 
