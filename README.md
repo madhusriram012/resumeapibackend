@@ -44,24 +44,17 @@ npm run test
 npm run prettier-fix
 ```
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-
 ## Project Structure
 
-     1. `output` folder contains the response from api in the form of .pdf
-     2. `resources` folder contains the input .docx and json file.
-     3. `src` folder to hold everything.
-           1. `auth` contains authentication
-           2. `controller` handles request,response for the endpoints.
-           3. `error` contains custom error for defined.
-           4. `service` contains business logic.
-           5. `validators` contains validations.
-     4. `tests` folder contains unit tests of all the code.
+1. `output` folder contains the response from api in the form of .pdf
+2. `resources` folder contains the input .docx and json file.
+3. `src` folder to hold everything.
+   1. `auth` contains authentication
+   2. `controller` handles request,response for the endpoints.
+   3. `error` contains custom error for defined.
+   4. `service` contains business logic.
+   5. `validators` contains validations.
+4. `tests` folder contains unit tests of all the code.
 
 # To see the backend api function implementation without frontend, you can use [postman](https://www.postman.com/) 
   1.Start the server first by typing `npm start`, then head over to postman.
