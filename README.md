@@ -59,9 +59,9 @@ To generate the resume, please follow the below steps,
 
 1. Login with below endpoint
 
-** POST `http://localhost:8081/login` **
+**POST `http://localhost:8081/login`**
 
-** Body(in json format) **
+**Body(in json format)**
 
 ```json
 {
@@ -76,9 +76,9 @@ To generate the resume, please follow the below steps,
 
 <img width="1016" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/d55a5051-0047-49f2-8d78-0812a1aa14ae">
 
-** POST `http://localhost:8081/resume/` **
+**POST `http://localhost:8081/resume/`**
 
-** Body **
+**Body**
 
 ```json
 {
