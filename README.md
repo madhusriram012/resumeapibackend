@@ -44,6 +44,13 @@ npm run test
 npm run prettier-fix
 ```
 
+## Table of Contents
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [Installation](#installation)
+4. [Collaboration](#collaboration)
+5. [FAQs](#faqs)
+
 ## Project Structure
 
      1. `output` folder contains the response from api in the form of .pdf
