@@ -34,7 +34,7 @@ copy the above url and paste in browser and follow the steps in readme over ther
 
 ```shell
 npm test (or)
-jest (or)
+
 npm run test
 ```
 
