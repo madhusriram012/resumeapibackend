@@ -48,7 +48,7 @@ npm run prettier-fix
 
 1. `output` folder contains the response from api in the form of .pdf
 2. `resources` folder contains the input .docx and json file.
-3. `src` folder to hold everything.
+3. `src` folder contains modularized code files.
    1. `auth` contains authentication
    2. `controller` handles request,response for the endpoints.
    3. `error` contains custom error for defined.
