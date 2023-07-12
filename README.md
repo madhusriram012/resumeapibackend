@@ -47,7 +47,7 @@ npm run prettier-fix
 ## Project Structure
 
 1. `output` folder contains the response from api in the form of .pdf
-2. `resources` folder contains the input .docx and json file.
+2. `resources` folder contains the input .docx file.
 3. `src` folder contains modularized code files.
    1. `auth` contains authentication
    2. `controller` handles request,response for the endpoints.
