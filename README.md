@@ -30,7 +30,7 @@ If error persists while running the above command ,simply delete the node_module
 
 copy the above url and paste in browser and follow the steps in readme over there.
 
-### How to run test
+# How to run test
 
 ```shell
 npm test (or)
@@ -38,7 +38,7 @@ jest (or)
 npm run test
 ```
 
-### How to fix code styling
+# How to fix code styling
 
 ```shell
 npm run prettier-fix
