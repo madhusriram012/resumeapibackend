@@ -8,8 +8,11 @@ A Resume Builder API is a tool that allows users to create professional resumes 
 ```bash
 git clone https://github.com/madhusriram012/resumeapibackend.git
 ```
+### Step 2: 
 
-### Step 2: Install dependencies
+Replace the existing client_id and client_secret inside config(in default.json) with your own in place of it by getting it from [here](https://acrobatservices.adobe.com/dc-integration-creation-app-cdn/main.html?api=document-generation-api) .
+
+### Step 3: Install dependencies
 To add node_modules, type npm install in terminal.
 ```bash
 cd resumeapibackend
@@ -17,7 +20,7 @@ npm install
 ```
 If error persists while running the above command ,simply delete the node_modules folder and repeat the process.
 
-### Step 3: To start server
+### Step 4: To start server
 ```bash
   npm start
 ```
