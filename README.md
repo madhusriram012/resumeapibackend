@@ -59,7 +59,7 @@ To generate the resume, please follow the below steps,
 
 1. Login with below endpoint
 
-POST http://localhost:8081/login
+POST `http://localhost:8081/login`
 
 Body(in json format)
 
