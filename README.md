@@ -45,9 +45,9 @@ npm run prettier-fix
 ```
 
 # To see the backend api function implementation without frontend, you can use [postman](https://www.postman.com/) 
-  1.Create a new workspace or use your existing workspace in postman
-  
-  2.The workspace will look like below 
+  1.Start the server first by typing `npm start`, then head over to postman.
+  2.Create a new workspace or use your existing workspace in postman.  
+  3.The workspace will look like below 
   
 <img width="1437" alt="image" src="https://github.com/madhusriram012/resumeapibackend/assets/75003175/e3304c74-0ae0-4f31-b498-82414399837e">
 (use Desktop Agent as show in image)
